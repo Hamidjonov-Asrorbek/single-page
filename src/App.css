@@ -1,0 +1,190 @@
+
+/* roots */
+
+:root{
+  --header-bg: #fff;
+  --header-color: #0f90ca;
+  --header-active: #001049;
+  --header-logo: #014c98;
+  --body-bg: #001049;
+  --hero-color: #fff;
+  --hero-span: #ace5ff;
+  --btn-bg: #0f90ca;
+  --btn-color: #fff;
+  --footer-bg: #fff;
+  --footer-color: #001049;
+  --services-color: #fff;
+  --services-card-bg: #fff;
+  --service-card-title: #252b42;
+  --service-card-desc: #737373;
+}
+
+.light{
+  --header-bg: #fff;
+  --header-color: #0f90ca;
+  --header-active: #001049;
+  --header-logo: #014c98;
+  --body-bg: #001049;
+  --hero-color: #fff;
+  --hero-span: #ace5ff;
+  --btn-bg: #0f90ca;
+  --btn-color: #fff;
+  --footer-bg: #fff;
+  --footer-color: #001049;
+  --services-color: #fff;
+  --services-card-bg: #fff;
+  --service-card-title: #252b42;
+  --service-card-desc: #737373;
+}
+
+.dark{
+  --header-bg: #001049;
+  --header-color: #fff;
+  --header-active: #0f90ca;
+  --header-logo: #fff;
+  --footer-bg: #001049;
+  --footer-color: #fff;
+  --services-card-bg: #0f90ca;
+  --service-card-title: #fff;
+  --service-card-desc: #d4d3d3;
+}
+
+/* fonst */
+
+/* poppins-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 700;
+    src: local('Poppins'),
+    url("src/fonts/poppins-v20-latin-700.woff2") format('woff2');
+  }
+  /* poppins-400 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 400;
+    src: local("Poppins"), 
+    url("src/fonts/poppins-v20-latin-regular.woff2") format("woff2");
+  }
+  /* Montserrat-400 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-weight: 700;
+    src: local("Poppins"),
+        url("src/fonts/Montserrat-Regular.woff2") format("woff2");
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Poppins"),
+    url("src/fonts/Montserrat-Bold.woff2") format("woff2");
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-weight: 900;
+    src: local("Poppins"),
+    url("src/fonts/inter-v13-latin-900.woff2") format("woff2");
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--hero-color);
+    background-color: var(--body-bg);
+  }
+  #root{
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  
+  }
+  
+  main {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+  
+  ul,
+  ol{
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .mb-3, li, p{
+    margin-bottom: 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .btn {
+    border-radius: 30px;
+    background: var(--btn-bg);
+    color: var(--btn-color);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px; /* 100% */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .btn:hover {
+    background-color: var(--btn-color);
+    color: var(--btn-bg);
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+  }
+  .btn:active {
+    opacity: 0.6;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  a.active{
+    color: var(--header-active);
+    font-size: 19px;
+  }
+
+

@@ -1,0 +1,124 @@
+/* Who are */
+.who-are {
+    padding-top: 39px;
+    padding-bottom: 40px;
+  }
+  .who-are-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 17px;
+  }
+  .who-are-title {
+    color: #ace5ff;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 39px; /* 118.182% */
+  }
+  .who-are-desc {
+    width: 100%;
+    max-width: 1013px;
+    color: #fff;
+    font-family: "Poppins";
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    margin: auto;
+  }
+  
+  .who-are-btn {
+    padding: 10px 20px;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+  }
+  .who-are-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 27.7px;
+  }
+  .who-are-card {
+    border-radius: 8.455px;
+    background: var(--white, #fff);
+    padding: 40px 26.85px 80px 27.7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 34px;
+    width: 100%;
+    max-width: 267px;
+  }
+  .who-card-title {
+    color: #001049;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 19.302px;
+    font-weight: 400;
+    line-height: 22.911px; /* 118.696% */
+  }
+  .who-are-desc-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 14px;
+  }
+  .who-are-card-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .who-card-item {
+    color: #3f4254;
+    font-family: "Poppins";
+    font-size: 11.749px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.592px; /* 149.732% */
+    margin-right: auto;
+  }
+  .who-are-card:hover {
+    border-radius: 8.455px;
+    background: var(--primary, #0f90ca);
+    padding: 50px 26.85px 92px 27.7px;
+    gap: 40px;
+    color: #fff;
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+  }
+  .who-are-card:hover .who-card-item {
+    color: #fff;
+  }
+  .who-are-card:hover .who-card-title {
+    color: #fff;
+  }
+  /* ***************************** */

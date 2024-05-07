@@ -1,0 +1,37 @@
+/* Hero */
+.hero {
+    padding: 26px 0;
+    margin-bottom: 74px;
+  }
+  .hero-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .hero-text {
+    margin-top: 86px;
+  }
+  .hero-title {
+    width: 100%;
+    max-width: 522px;
+    color: var(--white, #fff);
+    font-family: "Montserrat";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43.68px; /* 128.471% */
+    text-transform: uppercase;
+    margin-bottom: 113px;
+  }
+  .hero-text span {
+    color: var(--white, #ace5ff);
+  }
+  .hero-btn {
+    padding: 10px;
+    gap: 10px;
+    width: fit-content;
+  }
+  /* ************************** */

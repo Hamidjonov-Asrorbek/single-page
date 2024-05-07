@@ -1,0 +1,108 @@
+/* Header */
+.header {
+    background-color: var(--header-bg);
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+  }
+  .logo-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 80px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: auto;
+  }
+  .logo {
+    color: var(--header-logo);
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 900;
+  }
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 24px;
+  }
+  .nav-item {
+    color: var(--header-color);
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .nav-item:hover {
+    color: var(--header-active);
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    font-size: 18px;
+  }
+  .nav-item:active {
+    opacity: 0.2;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .header-btn {
+    cursor: pointer;
+    border-radius: 40px;
+    border: 1px solid var(--header-color);
+    color: var(--header-color);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .header-btn:hover {
+    background-color: var(--header-active);
+    color: var(--header-bg);
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+  }
+  .header-btn:active {
+    opacity: 0.2;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .hidden{
+    display: none;
+  }
+  .form-select{
+    width: 100%;
+    height: fit-content;
+    max-width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    background-color: var(--header-active);
+    color: var(--header-bg);
+    margin-right: 10px;
+}
+
+.option_item{
+    color: var(--header-bg);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+}
